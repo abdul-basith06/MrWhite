@@ -1,0 +1,614 @@
+body{
+    margin: 0;
+    /* height: 2825px; */
+    margin-right: 0;
+    
+}
+.fixedtop {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color:#2d412f;
+    width: 100%;
+    height: 100px;
+}
+.navbarcontainer{
+    position: relative;
+    display: flex;
+   
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.logofirst{
+    position: relative;
+    top: 7px;
+    left: 67px;
+    vertical-align: middle;
+
+}
+.headpart{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    background-image: url(mainpic.png);
+    
+}
+.navbaroptions {
+    background-color: #2d412f;
+    position: relative;
+    width: 453px;
+    height: 50.3px;
+    right: -211px;
+    top: 9px;
+}
+.offers{
+    font-size: 20px;
+    position: relative;
+    color: #fff;
+    font-family: "Lato",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    top: 9px;
+    left: 9px;
+    text-decoration: none;
+}
+.menus{
+    font-size: 20px;
+    position: relative;
+    color: #fff;
+    font-family: "Lato",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    left: 43px;
+    top: 9px;
+}
+.bookatable{
+    position: relative;
+    top: 6px;
+    left: 64px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Bebas Neue;
+    background: #2d412f;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    letter-spacing: 1.5px;
+    border-radius: 0;
+    padding: 0.25em 0.75em
+}
+.navbartoggler {
+    width: 32px;
+    height: 35px;
+    right: 57px;
+    top: 9px;
+    position: relative;
+    background-color: #2d412f;
+}
+
+.menu-bar{
+
+    top: 6px;
+    left: 9px;
+    position: relative;
+    color: white;
+    
+}
+.sunday{
+    width: 1110px;
+    height: 176px;
+  
+}
+.display-cont{
+    position: relative;
+    top: 83px;
+    z-index: 0;
+    
+}
+.sundayh{
+    font-size: 80px;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    bottom: -39px;
+    font-family: 'Bebas Neue';
+    line-height: 3em;
+    left: 146px;
+}
+.sundayl{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    line-height: 1.2em;
+    left: 144px;
+    color: #fff;
+    position: relative;
+}
+.arrowmark{
+    width: 1084px;
+    height: 42px;
+    position: relative;
+    left: 60px;
+}
+.rightarrow{
+    position: relative;
+    left: 1062px;
+    bottom: 1px;
+    color: #fff;
+}
+.leftarrow{
+    position: relative;
+    left: 1020px;
+    bottom: 1px;
+    color: #fff;
+}
+.mouseicon{
+    width: 32px;
+    height: 58px;
+    border: 2px solid white;
+    border-radius: 25px;
+    bottom: 46px;
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: 312px;
+    
+}
+.heading1{
+    width: 100%;
+    height: 72px;
+  
+}
+.welcome{
+    font-size: 48px;
+    font-family: 'Lato';
+    position: relative;
+    left: 498px;
+    color: #2d412f
+}
+.welcometext1{
+    width: 100%;
+    height: 82px;
+   
+}
+.welcometext1p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d412f;
+    font-family: 'Lato';
+    text-align: center;
+}
+.welcometext2{
+    width: 100%;
+    height: 82px;
+  
+}
+.welcometext2p{
+    font-family: 'Lato';
+    text-align: center;
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.welcometext3{
+    width: 100%;
+    height: 28px;
+   
+}
+.welcometext3p{
+    font-family: 'Lato';
+    text-align: center;
+}
+.quotecontainer{
+    width: 100%;
+    height: 197px;
+    
+}
+.quote{
+    width: 100%;
+    height: 132px;
+    
+}
+.quotep{
+    color: #2d412f;
+    font-size: 44px;
+    letter-spacing: 1px;
+    display: block;
+    font-family: Bebas Neue;
+    position: relative;
+    left: 53px;
+}
+.cite{
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    font-family: Bebas Neue;
+    position: relative;
+    bottom: 31px;
+    left: 54px;
+    color: #212529;
+    font-weight: 400;
+}
+.calendercontainer{
+    width: 100%;
+    height: 724px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.infocontainer{
+    width: 45%;
+    height: 700px;
+    position: relative;
+    left: 10px;
+
+}
+.calender{
+    width: 45%;
+    height: 700px;
+    position: relative;
+    right: 10px;
+    background-image: url(calenderbag.webp);
+    background-repeat: no-repeat;
+    background-size: 320%;
+}
+.infoimg{
+    width: 100%;
+    height: 350px;
+    background-image: url(mainpic.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    
+}
+.infoimgdes{
+    width: 100%;
+    bottom: 48px;
+    position: relative;
+    height: 350px;
+   
+    background-image: url(imgdes.jpg);
+    background-repeat: no-repeat;
+}
+.sunday2p{
+    font-size: 48px;
+    color: #2d412f;
+    position: relative;
+    letter-spacing: 1.5px;
+    left: 150px;
+    bottom: -31px;
+    font-family: Bebas Neue;
+}
+.sunday2pdes{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Lato';
+    text-align: center;
+}
+.moreinfo{
+    position: relative;
+    left: 221px;
+    color: white;
+    font-size: 22px;
+    background: #2d412f;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    font-family: Bebas Neue;
+}
+.calcon{
+    width: 400px;
+    height: 430px;
+    position: relative;
+    top: 133px;
+    left: 74px;
+
+}
+.calconh{
+    font-weight: 300;
+    font-size: 24px;
+    left: 102px;
+    position: relative;
+    color: white;
+    font-family: 'Lato';
+}
+.calenderimg{
+    position: relative;
+    bottom: 5px;
+    width: 400px;
+}
+.signupcontainer{
+    width: 100%;
+    height: 453px;
+    background-image: url(calenderbag.webp);
+}
+.signuph1{
+    position: relative;
+    top: 53px;
+    width: 1038px;
+    left: 83px;
+    height: 72px;
+}
+.signuph1p{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Lato';
+
+}
+.signuph2{
+    width: 1038px;
+    height: 72px;
+    left: 83px;
+    top: 5px;
+    position: relative;
+}
+.signuph2p{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    opacity: 7;
+}
+.signupform{
+    width: 778px;
+    left: 83px;
+    position: relative;
+    height: 144px;
+    top: 30px;
+}
+.emaill{
+    width: 100%;
+    height: 55px; 
+    padding: 8px 12px;
+    font-size: 24px;
+    font-family: Bebas Neue;
+}
+.fname{
+    width: 49%;
+    height: 55px;
+    padding: 8px 12px;
+    font-size: 24px;
+    position: relative;
+    top: 20px;
+    font-family: Bebas Neue;
+}
+.lname{
+    width: 49%;
+    height: 55px;
+    padding: 8px 12px;
+    font-size: 24px;
+    position: relative;
+    top: 20px;
+    left: 11px;
+    font-family: Bebas Neue;
+}
+.hbd{
+    width: 290px;
+    height: 144px;
+    position: relative;
+    left: 861px;
+    bottom: 113px;
+}
+.birthday{
+    font-size: 30px;
+    font-family: Bebas Neue;
+    color: white;
+    padding-top: 27px;
+    position: relative;
+    top: 29px;
+    left: 13px;
+}
+.daymonth{
+    width: 100%;
+    height: 106px;
+    position: relative;
+    top: 28px;
+}
+.day{
+    font-family: Bebas Neue;
+    font-size: 20px;
+    height: 56px;
+    width: 130px;
+    position: relative;
+    left: 13px;
+}
+.month{
+    font-family: Bebas Neue;
+    font-size: 20px;
+    height: 56px;
+    width: 130px;
+    position: relative;
+    right: -8px;
+}
+.submitb{
+    position: relative;
+    bottom: 107px;
+    left: 85px;
+    font-size: 22px;
+    border: 1px solid #c86c35;
+    letter-spacing: 1.5px;
+    background: white;
+    border-radius: 0;
+    color: #c86c35;
+    padding: 0.25em 0.75em;
+    opacity: .7;
+    font-family: Bebas Neue;
+    cursor: pointer;
+}
+.footercontainer{
+    width: 100%;
+    height: 426px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footerlogo{
+    width: 255px;
+    height: 282px;
+}
+.flogo{
+    background-color: #2d412f;
+}
+.timings{
+    width: 287px;
+    height: 282px;
+}
+.contact{
+    width: 287px;
+    height: 282px;
+}
+.about{
+      width: 257px;
+    height: 282px;
+}
+.bookatable2{
+    position: relative;
+    top: 30px;
+    left: 2px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Bebas Neue;
+    background: #2d412f;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    letter-spacing: 1.5px;
+    border-radius: 0;
+    padding: 0.25em 0.75em
+}
+.signature{
+    position: relative;
+    left: 5px;
+    width: 107px;
+    bottom: -30px;
+}
+.facebook{
+    position: relative;
+    left: 52px;
+    top: 39px;
+}
+.instagram{
+    position: relative;
+    top: 40px;
+    left: 8px;
+}
+.copyright{
+   font-size: 17px;
+    font-family: Bebas Neue;
+    position: relative;
+    color: #212529;
+    top: 112px;
+    left: 2px;
+}
+.timingsh1{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #2d412f;
+    letter-spacing: .5px;
+    line-height: 21px;
+    margin-bottom: 1em;
+    font-family: 'Lato';
+    position: relative;
+    left: 5px;
+    bottom: 25px;
+}
+.rtime{
+    position: relative;
+    left: 7px;
+    bottom: 29px;
+    letter-spacing: .5px;
+    line-height: 21px;
+    color: #212529;
+    font-size: 18px;
+    font-family: Bebas Neue;
+}
+.btime{
+    position: relative;
+    left: 7px;
+    bottom: 29px;
+    letter-spacing: .5px;
+    line-height: 21px;
+    color: #212529;
+    font-size: 18px;
+    font-family: Bebas Neue;
+}
+.lastorder{
+    position: relative;
+    left: 7px;
+    bottom: 11px;
+    letter-spacing: .5px;
+    line-height: 21px;
+    color: #212529;
+    font-size: 18px;
+    font-family: Bebas Neue;
+}
+.contacth1{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #2d412f;
+    letter-spacing: .5px;
+    line-height: 21px;
+    margin-bottom: 1em;
+    font-family: 'Lato';
+    position: relative;
+    left: 1px;
+    bottom: 25px;
+}
+.contactp{
+    position: relative;
+    bottom: 30px;
+    color: #212529;
+    font-size: 18px;
+    font-family: Bebas Neue;
+}
+.adress{
+    position: relative;
+    bottom: 48px;
+    color: #212529;
+    font-size: 18px;
+    font-family: Bebas Neue;
+}
+.infonum{
+    position: relative;
+    bottom: 54px;
+    color: #212529;
+    font-family: Bebas Neue;
+    font-size: 18px;
+}
+.abouth1{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #2d412f;
+    letter-spacing: .5px;
+    line-height: 21px;
+    margin-bottom: 1em;
+    font-family: 'Lato';
+    position: relative;
+    left: 1px;
+    bottom: 25px;
+}
+.tnc{
+    position: relative;
+    bottom: 29px;
+    letter-spacing: .5px;
+    color: #212529;
+    font-family: Bebas Neue;
+    font-size: 18px;
+}
